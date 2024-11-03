@@ -1,0 +1,99 @@
+.containerpage{
+    height: 100vh;
+    width: 100%;
+}
+.menu1{
+    float: right;
+}
+.menu{
+    width: 244px;
+    height: 100vh;
+    margin: 2px;
+    border-right: 0.01em solid rgb(34, 34, 34);
+    padding: 17px;
+    position: fixed;
+}
+.logo{
+    margin-top: 10px;
+    width: 106px;
+    margin-left: 2px;
+}
+.icons{
+    font-size: 30px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-font{
+    font-size: 16px;
+    margin-top: 9.5px;
+    margin-left: 12px;
+    font-weight: 400;
+}
+.menu-content{
+    margin-top: 35px;
+
+}
+.menu-content-child{
+    padding: 6px 3px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    margin-top: 7px;
+}
+.menu-content-child:hover{
+    background-color: rgb(28, 28, 28);
+}
+.more{
+    margin-top: 15px;
+}
+.badgecontrol{
+    position: relative;
+    right: 95px;
+    bottom: 10px;
+    font-size: 10px;
+}
+.badgecontrollikes{
+    position: relative;
+    right: 105px;
+    bottom: 6px;
+    font-size: 10px;
+}
+.all-header{
+    width: 640px;
+}
+.header{
+    width: 640px;
+    border-bottom: 1px solid rgb(34, 34, 34);
+    margin-left: 287px;
+    padding-top: 43px;
+}
+.yazi{
+    padding-bottom: 5px;
+}
+.stories{
+    width: 70px;
+    margin-right: 11px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.story-image{
+    width: 65px;
+    padding: 2.7px;
+    border: 1px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top left, rgb(107, 0, 91),rgb(107, 0, 91),#ff0000,#fff700);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.story-username{
+    font-size: 12px;
+    padding-top: 2.5px;
+}
+.all-stories{
+    margin-left: 285px;
+}

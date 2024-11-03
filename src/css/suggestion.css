@@ -1,0 +1,21 @@
+.suggestions{
+    float: right;
+    padding-top: 40px;
+    padding-right: 65px;
+    display: flex;
+    flex-direction: column;
+    width: 371px;
+    
+}
+.myprofile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 285px;
+}
+.follow{
+    border:none;
+    background:none;
+    color: blue;
+    font-size: 14px;
+}
